@@ -1,4 +1,4 @@
-function Raw_chromatogram(~,~)
+function Raw_chromatogram()
 % RAW_CHROMATOGRAM Plot raw chromatogram with optional baseline correction
 %   Syntax: Raw_chromatogram()
 %   Features:
