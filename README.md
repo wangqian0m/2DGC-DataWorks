@@ -35,6 +35,7 @@ auto2DGCQuant generates these files in the source directory:
 2D_Chromatogram(PeakID-R.T.correction)
 FullData
 Report
+
 Quantitative Method Setup:
 Step 1: Qualitative Analysis
 Run RawDatato2DGC on standard samples
@@ -51,12 +52,14 @@ From FullData results:
 Extract peak areas
 Calculate calibration coefficients
 Update Slope/Intercept values in GC_Parameters.csv
-Routine Analysis"
+
+Routine Analysis:
 auto2DGCQuant('sample.D')
 Find results in:
 FullData: Complete quantitative data
 Report: Summary results
-Important Notes
+
+Important Notes:
 Adjust parameters marked with % MODIFY in code headers according to:
 Instrument specifications
 Chromatographic conditions
